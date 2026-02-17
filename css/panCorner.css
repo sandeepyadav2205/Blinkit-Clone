@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+
+main {
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.22);
+    width: 1220px;
+    margin: auto;
+    margin-bottom: 90px;
+    border-radius: 5px;
+}
+
+.container {
+    width: 1220px;
+    overflow-x: scroll;
+    overflow-x: hidden;
+    margin: auto;
+    border-radius: 3px;
+}
+
+/* ::-webkit-scrollbar {
+    width: 0;
+} */
+
+.heading h1 {
+    box-sizing: border-box;
+    height: 40px;
+    border: 0.5px solid rgb(232, 232, 232);
+    background: rgb(255, 255, 255);
+    color: rgb(31, 31, 31);
+    padding: 12px;
+    font-weight: 600;
+    font-size: 13px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 0px 10px 0px;
+}
+
+
+.bannerContainer {
+    height: 460px;
+    width: 100%;
+    display: flex;
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    /* height: 75vh; */
+    left: auto;
+    overflow: hidden auto;
+    position: sticky;
+    width: 5rem;
+    gap: 15px;
+    align-items: center;
+    z-index: 12;
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 0px 8px 0px;
+}
+
+.asideImage {
+    height: 80px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+}
+
+.asideImage a {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F8F8F8;
+}
+
+.asideImage p {
+    font-size: 10px;
+}
+
+.asideImage a img {
+    height: 50px;
+    width: 40px;
+}
+
+.banner {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: #F6F6F9;
+    flex-direction: column;
+}
+
+.hero {
+    width: 1140px;
+    height: 100%;
+    overflow-y: scroll;
+}
+
+.bannerImage img {
+    border-radius: 10px;
+    cursor: pointer;
+    height: 420px;
+    width: 1100px;
+    margin-top: 10px;
+}
+
+.bannerContent {
+    margin-top: 10px;
+}
+
+.card-Container {
+    gap: 7px;
+    background-color: white;
+}
+
+.description {
+    margin: auto;
+    display: flex;
+    gap: 18px;
+    flex-direction: column;
+    padding: 18px 48px 48px;
+}
+
+.description h3 {
+    font-size: 18px;
+}
+
+.description p {
+    font-size: 12px;
+    color: #666666;
+}
+
+.description span{
+    color: black;
+    font-weight: bold;
+}
+
+.description h4{
+    font-size: 14.04px;
+}
