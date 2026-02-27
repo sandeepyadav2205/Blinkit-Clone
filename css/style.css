@@ -67,16 +67,17 @@
 
 .leftclick,
 .rightclick {
-    height: 30px;
+    /* height: 30px; */
     cursor: pointer;
-    width: 30px;
-    background-color: #eee2e2;
-    display: flex;
+    /* width: 30px; */
+    background-color: #ffffff;
+   padding: 6px;
+    display: flex;font-size: 18px;
     justify-content: center;
     align-items: center;
-    border-radius: 50%;
+   border-radius: 50%;
     position: absolute;
-    box-shadow: rgba(0, 0, 0, 0.2) 0px 3px 5px -1px, rgba(0, 0, 0, 0.14) 0px 6px 10px 0px, rgba(0, 0, 0, 0.12) 0px 1px 18px 0px;
+   box-shadow: 0px 0px 10px 1px #ccc;
 }
 
 .leftclick i,

@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.xline {
+    width: 94%;
+    height: 1px;
+    margin: 70px auto;
+    background-color: rgb(207, 201, 201);
+}
+
+.container {
+    height: 530px;
+    width: 1280px;
+    display: flex;
+    margin: auto;
+    border-bottom: 1px solid rgb(238, 238, 238);
+}
+
+
+.containerleft {
+    width: 656px;
+    height: 100%;
+    padding-top: 64px;
+    padding-right: 64px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    scrollbar-width: none;
+}
+
+.itemImage {
+    width: 480px;
+    margin: auto;
+    height: 480px;
+}
+
+.itemImage video {
+    width: 100%;
+}
+.ItemLists{
+    position: relative;
+    width: 80%;
+    margin: auto;
+}
+.itemList {
+    width: 250px;
+    height: 100px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    padding-left: 170px;
+    overflow-x: scroll;
+    scrollbar-width: none;
+
+}
+
+.itemList div {
+    border: 1px solid rgb(168, 163, 163);
+    border-radius: 10px;
+    height: 60px;
+    width: 60px;
+
+}
+
+.itemList div img {
+    border-radius: 10px;
+}
+
+.ItemLists button{
+    position: absolute;
+    right: -30px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+    font-size: 18px;
+    bottom: 29px;
+    cursor: pointer;
+    padding: 6px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 1px #ccc;
+}
+
+.leftImageContent{
+    margin-top: 10px;
+}
+
+.leftImageContent h4{
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+
+.leftImageContent p:nth-child(2){
+    font-size: 14px;
+    color: rgb(49, 49, 49);
+}
+
+.leftImageContent p:nth-child(3){
+    font-size: 12px;
+    color: rgb(95, 95, 95);
+    margin: 5px 0;
+}
+
+.leftImageContent p:nth-child(4){
+    font-size: 15px;
+    color: #318616;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 5px;
+}
+.leftImageContent p:nth-child(4) i{
+    margin-top: -5px;
+    font-size: 10px;
+}
+.containerright {
+    width: 624px;
+    box-sizing: border-box;
+    padding: 48px;
+    height: 100%;
+}
+
+.containerright div p {
+    color: rgb(107, 100, 100);
+    font-size: 14px;
+}
+
+.containerright div p span {
+    color: black;
+}
+
+.containerright div h3 {
+    font-weight: bold;
+    font-size: 17px;
+    margin-top: 5px;
+}
+
+.addCard {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+/* .addCard div:first-child{
+    display: flex;
+    gap: 4px;
+    flex-direction: column;
+} */
+
+.addCard div p:nth-child(1) {
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.addCard div p:nth-child(2) {
+    color: black;
+    margin: 3% 0;
+    font-weight: 500;
+    font-size: 17px;
+}
+
+.addCard div p:nth-child(3) {
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.addCard button {
+    padding: 10px 20px;
+    height: 45px;
+    /* width: 100px; */
+    background-color: #318616;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.itemdes {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.itemdes>h3 {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgb(59, 54, 54);
+}
+
+.itemdes>div {
+    display: flex;
+    gap: 25px;
+}
+
+.descontent h5 {
+    font-size: 13px;
+    color: rgb(49, 49, 49);
+}
+
+
+.last {
+    max-width: 1280px;
+    margin: auto;
+    margin-top: 80px;
+}

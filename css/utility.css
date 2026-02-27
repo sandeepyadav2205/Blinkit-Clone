@@ -164,6 +164,10 @@ header {
     overflow: hidden;
 }
 
+.card-Container a{
+    text-decoration: none;
+}
+
 .card-Container .card {
     width: 179px;
     border-radius: 10px;
@@ -286,6 +290,7 @@ header {
 .footerrightHeader {
     display: flex;
     margin-bottom: 20px;
+    align-items: center;
     gap: 30px;
 }
 
